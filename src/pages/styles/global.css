@@ -5,6 +5,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   background-image: url(https://res.cloudinary.com/purplefix/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1645506502/thevillagefarm/website/thevillagefarm-bg.jpg);
   background-position: top top;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
   background-size: cover;
   margin: 0;
 }
@@ -46,5 +48,14 @@ h1 {
   }
   h1 {
     font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(https://res.cloudinary.com/purplefix/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1645506502/thevillagefarm/website/thevillagefarm-bg.jpg);
+  }
+  .container{
+    margin-top: 250px;
   }
 }
