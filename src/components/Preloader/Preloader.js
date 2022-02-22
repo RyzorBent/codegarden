@@ -19,8 +19,9 @@ class Preloader extends Component {
   render() {
     return (
       <div className="preloader">
-        <div class="spinner_wrap">
-          <div class="spinner" />
+            <div class="spinner_wrap">
+                <h4>Loading...</h4>
+          <div class="spinner"></div>
         </div>
       </div>
     )
