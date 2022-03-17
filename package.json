@@ -1,7 +1,7 @@
 {
-  "name": "the-village-farm",
+  "name": "codegarden",
   "private": true,
-  "description": "website for the villagefarm in Mokgwaneng",
+  "description": "mobile apps, websites and iot",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -24,9 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RyzorBent/thevillagefarm.git"
+    "url": "https://github.com/RyzorBent/codegarden.git"
   },
   "bugs": {
-    "url": "https://github.com/RyzorBent/thevillagefarm/issues"
+    "url": "https://github.com/RyzorBent/codegarden/issues"
   }
 }

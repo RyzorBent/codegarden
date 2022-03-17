@@ -10,7 +10,7 @@ export default function Home() {
       <div className="App">
         <div className="container">
           <h1>
-            The Village Farm
+            Codegarden
             <br />
           </h1>
             <h2>Website Coming Soon</h2>
