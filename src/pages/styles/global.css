@@ -3,7 +3,7 @@
 body {
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
-  background-image: url(https://res.cloudinary.com/purplefix/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1645506502/thevillagefarm/website/thevillagefarm-bg.jpg);
+  background-image: url(https://res.cloudinary.com/purplefix/image/upload/v1647502952/codegarden/website/code-bg.jpg);
   background-position: top top;
   background-repeat: no-repeat;
   /* background-size: auto; */
@@ -18,19 +18,19 @@ body {
   right: 0;
   bottom: 0;
   text-align: center;
-  background: rgb(211, 169, 90);
+  background: rgba(69, 100, 114, 0.507);
   background: linear-gradient(
     0deg,
-    rgba(212, 200, 85, 0.479) 0%,
-    rgba(206, 180, 63, 0.055) 50%,
-    rgba(88, 207, 191, 0.137) 100%
+    rgba(50, 69, 73, 0.479) 0%,
+    rgba(56, 95, 102, 0.26) 50%,
+    rgba(67, 138, 148, 0.26) 100%
   );
 }
 
 .container {
   width: 100%;
   margin: 15% auto;
-  background-color: rgba(47, 79, 79, 0.747);
+  background-color: rgb(0 0 0 / 25%);
     padding: 10px 5px 50px;
     border-radius: 6px;
 }

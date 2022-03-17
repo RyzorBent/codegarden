@@ -9,7 +9,7 @@ class Preloader extends Component {
       setTimeout(() => {
         preload.style.display = "none"
       }, 1000)
-    }, 3000)
+    }, 0)
   }
 
   componentDidMount() {
@@ -19,10 +19,10 @@ class Preloader extends Component {
   render() {
     return (
       <div className="preloader">
-            <div class="spinner_wrap">
-                <h4>Loading...</h4>
+        {/* <div class="spinner_wrap">
+          <h4>Loading...</h4>
           <div class="spinner"></div>
-        </div>
+        </div> */}
       </div>
     )
   }
